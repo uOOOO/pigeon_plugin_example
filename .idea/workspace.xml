@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c498e23a-f529-499e-853f-fe9199d0b89d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/pigeon_plugin.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/pigeon_plugin.dart" afterDir="false" />
-    </list>
+    <list default="true" id="c498e23a-f529-499e-853f-fe9199d0b89d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

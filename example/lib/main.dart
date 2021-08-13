@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
+import 'package:pigeon_plugin/messages.dart';
 import 'package:pigeon_plugin/pigeon_plugin.dart';
 
 void main() {
@@ -20,6 +21,7 @@ class _MyAppState extends State<MyApp> {
   void initState() {
     super.initState();
     initPlatformState();
+    test();
   }
 
   // Platform messages are asynchronous, so we initialize in an async method.
@@ -40,6 +42,12 @@ class _MyAppState extends State<MyApp> {
     setState(() {
       _platformVersion = platformVersion;
     });
+  }
+
+  Future<void> test() async {
+    Goods goods = new Goods();
+    // goods.type = Type.TYPE_A;
+    await PigeonPlugin.sell(goods);
   }
 
   @override
